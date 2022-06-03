@@ -79,6 +79,7 @@ nav li {
 .service ul {
    display: flex;
    flex-direction: row;
+   gap: 1em;
 }
 
 .fa-solid {
@@ -90,7 +91,6 @@ nav li {
    font-size: 18px;
    background-color: var(--bg-grey);
    border-radius: 50%;
-   margin-right: 15px;
 }
 .service a:hover,
 .service a:focus {
@@ -188,7 +188,6 @@ input[type=text] {
    width: 400px;
    border: 1.5px solid #F2F2F2;
    border-radius: 5px;
-   margin-bottom: 10px;
 }
 .card-img {
    display: flex;
@@ -224,6 +223,7 @@ color: rgba(0, 0, 0, 0.6);
    margin: 0 auto;
    display: flex;
    justify-content: space-between;
+   gap: 1em;
    margin-bottom: 40px;
 }
 /* Aside menu */
@@ -231,7 +231,6 @@ color: rgba(0, 0, 0, 0.6);
    min-width: 380px;
    background-color: var(--bg-grey);
    border-radius: 5px;
-   margin-right: 20px;
    display: flex;
    flex-direction: column;
 }
@@ -271,6 +270,7 @@ color: rgba(0, 0, 0, 0.6);
 .shop-list {
    display: flex;
    flex-wrap: wrap;
+   gap: 1em;
 }
 .shop-list-card {
    width: 278px;
@@ -278,8 +278,6 @@ color: rgba(0, 0, 0, 0.6);
    background-color: var(--bg-grey);
    border-radius: 5px 5px 0px 0px;
    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
-   border-radius: 5px;
-   margin: 0 15px 15px 0;
 }
 .shop-img {
    width: 278px;
@@ -294,7 +292,7 @@ color: rgba(0, 0, 0, 0.6);
 }
 .shop-card-info {
    background-color: #FFFFFF;
-   padding: 20px;
+   padding: 17px;
 }
 .shop-list-title {
    font-weight: 500;
@@ -442,7 +440,9 @@ color: rgba(0, 0, 0, 0.6);
    display: flex;
    justify-content: space-around;
    flex-wrap: wrap;
+   gap: 1em
 }
+
 .brand-item {
    width: 305px;
    height: 185px;
@@ -452,7 +452,6 @@ color: rgba(0, 0, 0, 0.6);
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   margin-bottom: 24px;
 }
 .brand-name {
    font-style: normal;
@@ -513,10 +512,10 @@ color: rgba(0, 0, 0, 0.6);
 .footer-social-item {
    display: flex;
    justify-content: flex-end;
+   gap: 1em;
 }
 .footer-social-item i {
    width: 30px;
-   margin-left: 26px;
    font-size: 26px;
    color: var(--white)
 }
