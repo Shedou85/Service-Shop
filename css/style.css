@@ -262,12 +262,10 @@ color: rgba(0, 0, 0, 0.6);
    line-height: 20px;
 }
 /* Shop's list*/
+
 .shop-list {
    width: 894px;
    height: 100%;
-}
-
-.shop-list {
    display: flex;
    flex-wrap: wrap;
    gap: 1em;
@@ -293,12 +291,14 @@ color: rgba(0, 0, 0, 0.6);
 .shop-card-info {
    background-color: #FFFFFF;
    padding: 17px;
+   display: flex;
+   flex-direction: column;
+   gap: 1.5em;
 }
 .shop-list-title {
    font-weight: 500;
    font-size: 17px;
    line-height: 22px;
-   margin-bottom: 24px;
 }
 .shop-rank {
    display: flex;
@@ -317,6 +317,7 @@ color: rgba(0, 0, 0, 0.6);
 .shop-pages {
    max-width: 1280px;
    margin: 0 auto;
+   padding-right: 15px;
    margin-bottom: 60px;
 }
 .shop-pages-item {
