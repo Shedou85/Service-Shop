@@ -19,7 +19,6 @@ li {
 body {
    font-family: 'DM Sans', sans-serif;
 }
-
 :root {
    --white: #FFFFFF;
    --bg-grey: #F2F3F5;
@@ -35,8 +34,8 @@ footer {
    margin: 0 auto;
 }
 
-
 /* Header */
+
 .header {
    height: 90px;
    display: flex;
@@ -49,23 +48,18 @@ nav li {
    line-height: 29px;
    margin-left: 20px;
 }
-
-
 .menu {
    display: flex;
    align-items: center;
    justify-content: center;
 }
-
+.logo {
+   cursor: pointer;
+}
 .menu ul {
    display: flex;
    flex-direction: row;
 }
-
-.logo {
-   cursor: pointer;
-}
-
 .service {
    display: flex;
    align-items: center;
@@ -81,7 +75,6 @@ nav li {
    flex-direction: row;
    gap: 1em;
 }
-
 .fa-solid {
    display: flex;
    justify-content: center;
@@ -96,8 +89,6 @@ nav li {
 .service a:focus {
    color: var(--link);
 }
-
-
 
 /* Hero block */
 .main-block {
@@ -135,7 +126,6 @@ nav li {
    border: 2px solid rgba(0, 0, 0, 0.4);
    border-radius: 10px;
 }
-
 .input {
    max-width: 514px;
    display: flex;
@@ -164,7 +154,6 @@ input[type=text] {
    justify-content: center;
    align-items: center;
 }
-
 .hero-img {
    width: 100%;
    height: 100%;
@@ -227,6 +216,7 @@ color: rgba(0, 0, 0, 0.6);
    margin-bottom: 40px;
 }
 /* Aside menu */
+
 .aside-menu {
    min-width: 380px;
    background-color: var(--bg-grey);
@@ -234,7 +224,6 @@ color: rgba(0, 0, 0, 0.6);
    display: flex;
    flex-direction: column;
 }
-
 .aside-menu-item {
    width: 100%;
    height: 76px;
@@ -313,6 +302,7 @@ color: rgba(0, 0, 0, 0.6);
    font-size: 20px;
    line-height: 23px;
 }
+
 /* Shop Pages */
 .shop-pages {
    max-width: 1280px;
@@ -364,7 +354,6 @@ color: rgba(0, 0, 0, 0.6);
    line-height: 47px;
    margin-bottom: 40px;
 }
-
 .hero2-img {
    width: 694px;
    background: url('../img/car-bg.png');
@@ -380,6 +369,7 @@ color: rgba(0, 0, 0, 0.6);
    justify-content: center;
    align-items: center;
 }
+
 /* Offer Title */
 .offer-title {
    max-width: 1280px;
@@ -443,7 +433,6 @@ color: rgba(0, 0, 0, 0.6);
    flex-wrap: wrap;
    gap: 1em
 }
-
 .brand-item {
    width: 305px;
    height: 185px;
@@ -460,6 +449,7 @@ color: rgba(0, 0, 0, 0.6);
    font-size: 32px;
    line-height: 42px;
 }
+
 /* Footer */
 .footer {
    border: solid 1px;

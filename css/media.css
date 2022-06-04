@@ -20,6 +20,18 @@
    .header {
       padding: 20px;
    }
+   .logo {
+      order: 2;
+   }
+   .menu ul {
+      display: flex;
+      flex-direction: column;
+      order: 2;
+   }
+   .menu {
+      display: flex;
+      flex-direction: row;
+   }
 }
 @media only screen and (max-width:810px) {
    .header {
@@ -28,10 +40,26 @@
       height: auto;
    }
    .menu {
-      display: flex;
-      flex-direction: column;
+      width: 100%;
+      margin-bottom: 20px;
+      justify-content: space-around;
    }
 }
+@media only screen and (max-width:510px) {
+   .logo {
+      order: 1;
+   }
+   .menu {
+      display: flex;
+      flex-direction: row;
+   }
+   .menu ul {
+      display: flex;
+      flex-direction: column;
+      order: 2;
+   }
+}
+
 /* Main block */
 @media only screen and (max-width:1000px) {
    .main-block {
@@ -135,4 +163,9 @@
       align-items: center;
       padding: 26px 20px 20px 20px;
    }
+}
+/* shop list */
+
+@media only screen and (max-width:970px) {
+
 }
