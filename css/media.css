@@ -290,7 +290,34 @@
    }
 }
 
-
+@media only screen and (max-width:380px) {
+   .main-block {
+      width: unset;
+   }
+   .hero {
+      width: unset;
+   }
+   .input {
+      width: 310px;
+   }
+}
+@media only screen and (max-width:350px) {
+   .main-block {
+      width: unset;
+   }
+   .hero {
+      width: unset;
+   }
+   .hero-title h1 {
+      text-align: center;
+   }
+   .input {
+      width: 296px;
+   }
+   .hero-title input {
+      width: 297px;
+   }
+}
 
 
 
