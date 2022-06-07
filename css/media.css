@@ -279,7 +279,7 @@
    }
   
    .input {
-      max-width: 314px;
+      max-width: 340px;
       display: flex;
       position: relative;
       align-items: center;
@@ -311,10 +311,10 @@
       text-align: center;
    }
    .input {
-      width: 270px;
+      width: 260px;
    }
    input[type=text] {
-      padding-right: 80px;
+      padding-right: 76px;
       font-size: 12px;
       line-height: 13px;
    }
