@@ -213,7 +213,7 @@ input[type=text] {
    display: flex;
    align-items: center;
    justify-content: center;
-   min-width: 160px;
+   max-width: 117px;
    background-color: var(--bg-grey);
    overflow: hidden;
 }
@@ -359,6 +359,10 @@ color: rgba(0, 0, 0, 0.6);
    justify-content: center;
    align-items: center;
 }
+/* Cards-block */
+.cards-block .card-block .card .card-img {
+   width: 160px;
+}
 
 /* Hero Two */
 .main-block2 {
@@ -425,6 +429,7 @@ color: rgba(0, 0, 0, 0.6);
    max-width: 1280px;
    margin: 0 auto;
    display: flex;
+   justify-content: center;
    margin-bottom: 80px;
    flex-wrap: wrap;
    gap: 1em;
