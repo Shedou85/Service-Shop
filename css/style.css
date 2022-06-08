@@ -361,7 +361,8 @@ color: rgba(0, 0, 0, 0.6);
 }
 /* Cards-block */
 .cards-block .card-block .card .card-img {
-   width: 160px;
+   min-width: 160px;
+   height: 137px;
 }
 
 /* Hero Two */

@@ -78,7 +78,17 @@
       display: none;
    }
 }
-
+@media only screen and (max-width:1006px) {
+   .shop-section {
+      flex-direction: column;
+      margin: 0 auto;
+   }
+   .shop-list {
+      width: unset;
+      justify-content: space-between;
+      gap: 1em;
+   }
+}
 
 @media only screen and (max-width:992px) {
    header,
@@ -95,7 +105,6 @@
       min-width: 280px;
    }
    .card-block {
-      max-width: 90%;
       display: flex;
    }
    .card-img {
@@ -137,10 +146,7 @@
    .card {
       width: 100%;
    }
-   .cards-block .card-img {
-      width: 160px;
-      height: 106px;
-   }
+ 
 }
 @media only screen and (max-width:768px) {
    header,
